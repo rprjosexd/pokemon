@@ -1,0 +1,91 @@
+/* Fondo general */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Título */
+h1 {
+  font-size: 2.5em;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Contenedor de cartas */
+.pokemon-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Carta Pokémon */
+.pokemon-card {
+  background-color: white;
+  border: 3px solid #333;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+/* Imagen */
+.pokemon-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Nombre */
+.pokemon-name {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+/* Tipos */
+.pokemon-type {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Colores por tipo */
+.fire {
+  background-color: #f08030;
+}
+
+.flying {
+  background-color: #a890f0;
+}
+
+.agua {
+  background-color: #6890f0;
+}
+
+.subnautico {
+  background-color: #8bc6f7;
+}
+
+.planta {
+  background-color: #00ff2a;
+}
+
+.destructor {
+  background-color: #3cff00;
+}
+
+/* Descripción */
+.pokemon-description {
+  font-size: 14px;
+  margin-top: 15px;
+  color: #555;
+}
